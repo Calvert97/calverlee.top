@@ -1,0 +1,12 @@
+---
+title: 最近观影
+date: 2021-12-15 10:32:52
+top_img: false
+aside: false
+---
+
+{% note purple 'far fa-hand-scissors' simple %}
+这是我近期看过的电影列表
+{% endnote %}
+
+<style>.hexo-douban-tabs{margin-bottom:15px;margin-top:15px}.hexo-douban-tab{padding:5px}.hexo-douban-active{background:#657b83;color:#fff}.hexo-douban-item{padding-bottom:10px;position:relative;clear:both;min-height:170px;padding:10px 0;border-bottom:1px #ddd solid}@media screen and (max-width:600px){.hexo-douban-item{width:100%}}.hexo-douban-picture{position:absolute;left:0;top:10px;width:100px}.hexo-douban-info{padding-left:120px}.hexo-douban-meta{font-size:12px;padding-right:10px}.hexo-douban-comments{font-size:12px}.hexo-douban-pagination{margin-top:15px;text-align:center;margin-bottom:10px}.hexo-douban-button{padding:5px}.hexo-douban-button:hover{background:#657b83;color:#fff}.hexo-douban-hide{display:none}.hexo-douban-show{display:block}</style>

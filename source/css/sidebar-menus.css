@@ -1,0 +1,36 @@
+.avatar-img img:hover {
+	transform: none;
+	-webkit-transform: none;
+}
+
+#sidebar-menus hr {
+	display: none;
+}
+
+.site-page i.fa-chevron-down {
+	display: none;
+}
+
+#sidebar #sidebar-menus .menus_items .menus_item_child {
+	margin-left: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	#sidebar #sidebar-menus .menus_items li .site-page:hover {
+		background: var(--calvert-main);
+		color: var(--calvert-white) !important;
+	}
+}
+
+.menus_item_child .site-page {
+	border-radius: 8px !important;
+	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px !important;
+	border-bottom-right-radius: 8px !important;
+	border-bottom-left-radius: 8px !important;
+}
+
+#sidebar #sidebar-menus .menus_items .site-page:hover {
+	background: #f6f8fa;
+	cursor: default;
+}

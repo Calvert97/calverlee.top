@@ -1,0 +1,150 @@
+:root {
+	--link-bg: #edf0f7;
+	--link-hover: rgba(73, 177, 245, 0.7);
+	--guole-none: rgba(0, 0, 0, 0);
+	--twikoo-name-yy: #217aa0;
+	--guole-shadow: 0 8px 12px -3px rgba(73, 177, 245, 0.2);
+	--second: #fff;
+	--guole-border: 1px solid var(--guole-card-border);
+
+
+	--calvert-main-op: #55279f23 !important;
+	--calvert-none: #00000000;
+	--calvert-theme-op: #4259ef23;
+
+	--calvert-main: #3a4a84;
+	--calvert-white: #fff;
+	--calvert-yellow: #ffc93e;
+	--style-border: 1px solid var(--calvert-card-border);
+	--style-border-hover: 1px solid var(--calvert-main);
+	--btn-bg: var(--calvert-main);
+	--heo-shadow-main: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+	--calvert-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234,.20);
+	--calvert-shadow-main: 0 8px 12px -3px var(--calvert-main-op);
+	--style-border-always: 1px solid var(--calvert-card-border);
+	--calvert-shadow-theme: 0 8px 12px -3px var(--calvert-theme-op);
+}
+
+[data-theme='light'] {
+	--card-bg: rgba(255, 255, 255, 0.9) !important; /* 全局背景调整 */
+	--link-bg: rgba(237, 240, 247, 0.46);
+	--link-hover: rgba(73, 177, 245, 0.7);
+	--categoryBar-color: #fff; /* 首页磁贴颜色调整 */
+	--categorybar-bg1: linear-gradient(to right, rgba(54, 79, 107, 0.9), rgba(63, 194, 201, 0.9));
+	--categorybar-bg2: linear-gradient(to right, rgba(185, 82, 237, 0.9), rgba(255, 153, 253, 0.8));
+	--categorybar-bg3: linear-gradient(to right, rgba(102, 57, 166, 0.8), rgba(52, 143, 222, 0.8));
+	--categorybar-bg4: linear-gradient(to left, rgba(56, 239, 126, 0.9), rgba(17, 153, 142, 0.8));
+	--categorybar-bg5: linear-gradient(to right, rgba(185, 29, 115, 0.8), rgba(249, 83, 199, 0.8));
+	--categorybar-bg6: linear-gradient(to right, rgba(241, 39, 17, 0.8), rgba(245, 175, 25, 0.9));
+	--calvert-secondbg: #edf0f7;
+	--heo-theme: #425aef;
+	--moments-bg: #fefefe;
+	--moments-hover: #daebf7;
+	--tab-item-content-bg: #fbfbfb;
+	--cp-playlist-bg: rgba(255, 255, 255, 0.6);
+	--cp-play-bg: #fff;
+	--aplayer-lrc: #666;
+	--pagination-bg: #00c4b6;
+	--pagination-page: #fff;
+	--guole-scrollbar: rgba(60, 60, 67, 0.4);
+	--twikoo-p-bg: #edf0f7;
+	--twikoo-name: #3ea2e4;
+	--weibo-list-title: #4c4948;
+	--code-bg: #f6f8fa;
+	--code-bk: #e6ebf1;
+	--guole-red: #d8213c;
+	--reward-info-bg: #edf0f7;
+	--footer-title: rgba(232, 232, 232, 0.85);
+	--footer-text: rgb(232 232 232);
+	--guole-main: #49b1f5;
+	--guole-card-border: rgba(66, 68, 74, 0.15);
+	--aplayer-li-bg: rgba(212, 212, 212, 0.8);
+	--aplayer-play-bg: #e9e9e9;
+
+	--calvert-shadow-border: 0 8px 16px -4px #2c2d300c;
+
+	--calvert-card-bg: #fff;
+	--calvert-secondtext: rgba(60, 60, 67, 0.6);
+	--calvert-thirdtext: #363636;
+	--calvert-card-border: #e3e8f7;
+	--calvert-fontcolor: #363636;
+	--footer-bg: linear-gradient(208deg, #3a4a84 0, #3a4a84 11%, #ff7676 100%);
+	--calvert-darkmode-switch: #4c4948;
+	--calvert-darkmode-post: var(--calvert-white);
+	--calvert-hovertext: var(--calvert-main);
+	--calvert-lighttext: var(--calvert-main);
+	--calvert-red: #d8213c;
+	--calvert-blue: #425aef;
+	--calvert-shadow-red: 0 8px 12px -3px #ee7d7936;;
+	--calvert-theme: #425aef;
+	--calvert-card-btn-bg: #edf0f7;
+	--calvert-green: #57bd6a;
+	--calvert-shadow-green: 0 8px 12px -3px #87ee7936;
+	--calvert-background: #f7f9fe;
+
+}
+
+[data-theme='dark'] {
+	/*--card-bg: rgba(24, 29, 39, .75) !important;/* 全局卡片背景调整 */
+	--card-bg: rgba(20, 24, 31, 0.8) !important; /* 全局卡片背景调整 */
+	--global-bg: rgb(24, 23, 31) !important; /* 全局背景调整 */
+	--btn-bg: #012c48 !important; /* 页面所有按钮夜间背景色 */
+	--text-highlight-color: rgba(255, 255, 255, 0.8); /* 夜间页面大标题白色调整 */
+	--categoryBar-color: rgba(255, 255, 255, 0.9); /* 首页磁贴颜色调整 */
+	--link-bg: rgba(48, 59, 63, 0.5);
+	--link-hover: rgba(34, 98, 140, 0.7);
+	--btn-hover-color: rgba(41, 117, 167, 0.8);
+	--categorybar-bg1: linear-gradient(to right, #364f6b, #3fc1c9);
+	--categorybar-bg2: linear-gradient(to right, #ba52ed, #ff99fe);
+	--categorybar-bg3: linear-gradient(to right, #6639a6, #3490de);
+	--categorybar-bg4: linear-gradient(to left, #38ef7d, #11998e);
+	--categorybar-bg5: linear-gradient(to right, #b91d73, #f953c6);
+	--categorybar-bg6: linear-gradient(to right, #f12711, #f5af19);
+	--calvert-secondbg: #30343f;
+	--heo-theme: #0084ff;
+	--moments-bg: #252c2f;
+	--moments-hover: #204d6b;
+	--moments-title-bg: #141c21;
+	--tab-item-content-bg: #171d20;
+	--cp-playlist-bg: #232323;
+	--cp-play-bg: #101010;
+	--aplayer-lrc: rgba(255, 255, 255, 0.8);
+	--pagination-bg: #008077;
+	--pagination-page: #1f2531;
+	--tab-botton-bg: #232829 !important;
+	--tab-button-hover-bg: #182223 !important;
+	--guole-scrollbar: rgba(200, 200, 223, 0.4);
+	/*--twikoo-p-bg: #2c2c2c;*/
+	--twikoo-p-bg: #19252b;
+	--twikoo-name: #2182c1;
+	--weibo-list-title: #99a9bf;
+	--code-bg: #171717;
+	--code-bk: #303030;
+	--guole-red: #ff3842;
+	--reward-info-bg: #30343f;
+	--footer-title: rgba(255, 255, 255, 0.5);
+	--footer-text: rgba(255, 255, 255, 0.7);
+	--guole-main: rgba(49, 157, 228, 0.85);
+	--guole-card-border: rgba(66, 68, 74, 0.5);
+	--aplayer-li-bg: #101010;
+	--aplayer-play-bg: #171717;
+
+	--calvert-shadow-border: 0 8px 16px -4px #00000050;
+
+	--calvert-card-bg: #1d1b26;
+	--calvert-secondtext: #a1a2b8;
+	--calvert-thirdtext: #f7f7fa;
+	--calvert-card-border: #42444a;
+	--calvert-fontcolor: #f7f7fa;
+	--footer-bg: #30343f;
+	--calvert-darkmode-switch: var(--calvert-yellow);
+	--calvert-darkmode-post: var(--calvert-yellow);
+	--calvert-red: #FF3842;
+	--heo-blue: #0084fe;
+	--calvert-shadow-red: 0 8px 12px -3px #ee7d7936;
+	--calvert-theme: #0084fe;
+	--calvert-card-btn-bg: #30343f;
+	--calvert-green: #57bd6a;
+	--calvert-shadow-green: 0 8px 12px -3px #87ee7936;
+	--calvert-background: #18171d;
+}

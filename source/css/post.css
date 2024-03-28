@@ -1,0 +1,160 @@
+/* post内容页面 */
+
+#page-header #post-info {
+	left: 0;
+	right: 0;
+	position: absolute;
+	padding: 0 1.5rem;
+	margin: 0 auto;
+	z-index: 10;
+	color: var(--calvert-white);
+	max-width: 1500px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	top: 30%;
+}
+
+#post-firstinfo {
+	text-align: left;
+	display: flex;
+	white-space: nowrap;
+}
+
+#post-firstinfo > div > span.post-meta-categories > a {
+	font-weight: 800;
+	margin-left: 0.4rem;
+	color: var(--calvert-white);
+}
+
+#post-firstinfo > div > span.post-meta-categories > a:hover {
+	color: var(--calvert-white) !important;
+}
+
+#post-firstinfo .post-meta__tags {
+	color: var(--calvert-white);
+	opacity: 0.4;
+	margin-left: 1rem;
+}
+#post-firstinfo .post-meta__tags:hover {
+	color: var(--calvert-white) !important;
+}
+
+#post-info .post-title {
+	color: var(--calvert-white);
+	font-weight: 700;
+	font-size: 2.3rem;
+	line-height: 1.2;
+	text-align: left;
+	margin: 0.4rem 0 1rem 0 !important;
+	-webkit-line-clamp: 2;
+	padding: 0;
+	overflow: visible;
+}
+
+#post-info #post-meta {
+	color: var(--calvert-white);
+}
+
+#post-meta > div {
+	text-align: left;
+	margin-top: 0.4rem;
+}
+
+.meta-secondline {
+	display: flex;
+}
+
+.meta-avatar {
+	display: flex;
+}
+
+#post-info #post-meta a {
+	text-decoration: none;
+}
+
+.meta-avatar img {
+	width: 30px;
+	border-radius: 30px;
+}
+
+.meta-avatar .meta-avatar-name {
+	margin: 0 0.5rem;
+}
+
+.meta-share-time .meta-avatar-name {
+	opacity: 1;
+	color: var(--calvert-white) !important;
+	font-weight: 700;
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+}
+
+.meta-share-time {
+	display: flex;
+	margin-right: 0.5rem;
+}
+
+.post-meta-wordcount {
+	opacity: 0.6;
+}
+
+#post-meta > div > span.post-meta-wordcount > span.word-count,
+#post-meta .post-meta-date,
+#post-meta .post-meta-wechat{
+	font-weight: 800;
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+}
+
+#post-meta .post-meta-date{
+	margin-left: 0.8rem;
+	opacity: 0.6;
+}
+
+.post-meta-date time {
+	margin-left: -0.1rem;
+}
+
+#post-info #post-meta .post-meta-separator {
+	margin: 0 0.4rem;
+}
+
+
+#post-meta > div > span.post-meta-wordcount > span:nth-child(5) {
+	font-weight: 800;
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+}
+
+.post-meta-date-created,
+.post-meta-date-updated {
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+}
+
+span.post-meta-wechat {
+	margin-left: 0.8rem;
+	opacity: 0.6;
+}
+
+
+#post-info #post-meta .fab {
+	margin-bottom: 3px;
+	font-size: 15px;
+}
+
+span.post-meta-pv-cv {
+	margin-left: 0.8rem;
+	opacity: 0.6;
+}
+
+#post-info #post-meta .post-meta-icon {
+	margin-right: 0.4rem;
+}
+
+#post-info #post-meta .fab {
+	margin-bottom: 3px;
+	font-size: 15px;
+}
+
+.post-meta-pv-cv #busuanzi_value_page_pv {
+	font-weight: 800;
+	font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+}
