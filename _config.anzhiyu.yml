@@ -1070,7 +1070,7 @@ home_top:
 friends_vue:
   enable: true
   vue_js: /js/FriendCircle.js
-  apiurl: http://39.103.205.2:8000/
+  apiurl: https://fcircle.calvertlee.top/
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background: /img/fircletop.webp
 
