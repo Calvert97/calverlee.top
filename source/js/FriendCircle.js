@@ -16151,7 +16151,7 @@ var __defProp = Object.defineProperty,
         tz = 20,
         nz = "https://sdn.geekzu.org/avatar/57d8260dfb55501c37dde588e7c3852c";
     let az;
-    az = "https://fcircle.calvertlee.top/";
+    az = "https://hexo-circle-of-friends-rho-eosin.vercel.app/";
     const iz = new class ANRequest {
         constructor(e) {
             var t, n, a, i, o;
