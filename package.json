@@ -1,6 +1,6 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "calvertlee.top",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "build": "hexo generate",
@@ -37,5 +37,21 @@
     "hexo-wordcount": "^6.0.1",
     "lazyload": "^2.0.0-rc.2",
     "object-assign": "^4.1.1"
-  }
+  },
+  "description": "hexo博客",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calvert97/calverlee.top.git"
+  },
+  "keywords": [
+    "calvertlee.top"
+  ],
+  "author": "Calvert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Calvert97/calverlee.top/issues"
+  },
+  "homepage": "https://github.com/Calvert97/calverlee.top#readme"
 }
