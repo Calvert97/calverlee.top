@@ -1,7 +1,7 @@
 {
-  "name": "calvertlee.top",
-  "version": "0.1.0",
-  "private": true,
+  "name": "calvertlee-top",
+  "version": "0.1.4",
+  "private": false,
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -46,12 +46,19 @@
     "url": "git+https://github.com/Calvert97/calverlee.top.git"
   },
   "keywords": [
-    "calvertlee.top"
+    "calvertlee-top"
   ],
-  "author": "Calvert",
+  "author": "calvert17",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Calvert97/calverlee.top/issues"
   },
+  "files": [
+    "source",
+    "themes/anzhiyu",
+    "_config.anzhiyu.yml",
+    "_config.yml"
+  ],
   "homepage": "https://github.com/Calvert97/calverlee.top#readme"
+
 }
