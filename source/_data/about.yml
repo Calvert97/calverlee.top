@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 卿自葳蕤，莫负韶华✨
-  avatarImg: /img/avatar/avator.png
+  avatarImg: https://p.calvertlee.top/img/hexo/avator.png
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -32,12 +32,12 @@
     title: 无限进步
     list:
       - desc: IMU,自动化专业
-        color: "#357ef5"
+        color: '#357ef5'
       - desc: IMU,控制工程专业
-        color: "#357ef5"
+        color: '#357ef5'
       - desc: CE,独立开发者
-        color: "#ff1111"
-    img: /img/about/career.png
+        color: '#ff1111'
+    img: https://p.calvertlee.top/img/hexo/career.png
   statistic:
     link: /archives
     text: 文章隧道
@@ -45,8 +45,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，鄂尔多斯市
-    background: /img/about/site.jpg
-    backgroundDark: /img/about/site.jpg
+    background: https://p.calvertlee.top/img/hexo/site.jpg
+    backgroundDark: https://p.calvertlee.top/img/hexo/site.jpg
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1997
@@ -58,7 +58,7 @@
     author_name: 提倡者
     personality_type: INFJ
     photo_url: /img/hero.webp
-    personality_img: /img/about/infj.webp
+    personality_img: https://p.calvertlee.top/img/hexo/infj.webp
     name_url: https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
@@ -71,8 +71,8 @@
   game:
     game_tips: 爱好游戏
     game_title: 英雄联盟
-    game_uid: "德玛西亚"
-    game_bg: /img/about/Katarina.jpg
+    game_uid: '德玛西亚'
+    game_bg: https://p.calvertlee.top/img/hexo/Katarina.jpg
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
