@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     .swiper_container_card {
         overflow-x: visible;
     }
@@ -35,4 +35,11 @@
 
 #rightside {
 	display: none;
+} */
+
+.author-content-item .image {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	width: 220px;
 }
