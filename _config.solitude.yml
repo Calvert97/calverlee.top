@@ -26,10 +26,8 @@ site:
     # Specific content, for example: solitude st-logo / Efu / /img/logo.png
     custom: Solitude
   # 网页icon
-  # Web icon
-  siteIcon: /img/favicon.ico
+  siteIcon: /img/siteicon/favicon.ico
   # 页脚的Logo、加载动画默认的logo
-  # Logo in the footer, default logo for loading animation
   icon: https://p.calvertlee.top/img/hexo/avator.png
 
 # 导航栏
@@ -316,9 +314,9 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-    #  - name: 支付宝
-    #    qcode: https://7.isyangs.cn/34/65f2e5a6d2ef5-34.png
-    #    color: var(--efu-blue)
+     - name: 支付宝
+       qcode: https://7.isyangs.cn/34/65f2e5a6d2ef5-34.png
+       color: var(--efu-blue)
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
   rss: # /atom.xml
@@ -358,15 +356,12 @@ display_mode:
   universe: true # 开启后暗色模式下会显示星空背景 / After opening, the dark mode will display the starry sky background
 
 # 文章底部推荐文章
-# Recommended articles at the bottom of the article
 # --------------------------------------
 related_post:
   enable: true
   # 推荐文章数量
-  # Number of recommended articles
   limit: 2
   # 根据创建日期（created）或是更新日期（updated）
-  # According to the creation date (created) or the update date (updated)
   date_type: created
 
 # --------------------------------------
@@ -400,9 +395,7 @@ footer:
       版权协议: /copyright/
 
   # 页脚随机友链
-  # Random links at footer
   # warning: 打开前必须先配置links
-  # warning: links must be configured before opening
   randomlink: true
   # 隐私助手右侧弹窗，填写路径后开启
   privacy: # /privacy/
@@ -430,24 +423,18 @@ errorpage:
   recommendList: true
 
 # 即刻短文
-# talk now
 # 前置要求：需配置即刻短文页面
-# Pre-requirements: talk now page needs to be configured
 says:
   enable: false
   # 主页的即刻轮播条
-  # Talk carousel bar on the homepage
   home_mini: false
   # 1：张洪heo样式 / 2：Leonus样式
-  # 1: Zhang Hong heo style / 2: Leonus style
   style: 1
   # 即刻短文仅展示前n条
-  # Talk short text only shows the first n
   strip: 30
 
 # -------------------------
 # meeting-api，用于界面中的音乐胶囊和音乐馆页，可自定义api，不会请勿动。
-# meeting-api, used for music capsules and music halls in the interface, can customize api, do not move if you don't know.
 meting_api: 'https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r' #自定义api
 # 音乐馆页
 music:
@@ -482,10 +469,9 @@ capsule:
 
 # 友链鱼塘
 moments:
-  # enable
   enable: true
   # API 地址
-  api: https://fcircle.calvertlee.top/
+  apiurl: https://fcircle.calvertlee.top/
   # 加载失败显示图片 / Loading failed display image
   error_img: /img/pwa/favicon_64.ico
   # 排序规则：created：按创建时间排序 / updated：按更新时间排序
@@ -497,10 +483,16 @@ moments:
   # 页面翻页加载数量，默认为5条 / Page turning loading quantity, default is 5
   page_turning_number: 5
   # 鱼塘随机文章 / Fish pond random article
-  angle: false
-  appjs: https://cdn.cbd.int/st-source@1.0.3/js/fcircle.min.js
+  angle: true
+  # appjs: https://cdn.cbd.int/st-source@1.0.3/js/fcircle.min.js
+  # bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
+  # randompostjs: https://cdn.cbd.int/st-source/js/moment/random_post.min.js
+
+  appjs: https://p.calvertlee.top/js/FriendCircle.js
   bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
-  randompostjs: https://cdn.cbd.int/st-source/js/moment/random_post.min.js
+  # randompostjs: https://p.calvertlee.top/js/random_friends_post.js
+  randompostjs: /js/random_friends_post.js
+  vue_js: https://p.calvertlee.top/js/FriendCircle.js
 
 # 快捷菜单你
 keyboard:
@@ -736,7 +728,7 @@ extends:
 # https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps
 # docs: https://solitude-docs.efu.me/configuration/extra#pwa
 pwa:
-  enable: true
+  enable: false
   manifest: /manifest.json # manifest.json 文件路径
   theme_color: '#006a73' # 主题颜色
   mask_icon: /img/pwa/favicon.ico # 遮罩图标

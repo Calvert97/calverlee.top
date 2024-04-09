@@ -1,7 +1,7 @@
 .title-h2-a
     .title-h2-a-left
         h2(style="padding-top: 0;margin:0.6rem 0 0.6rem;") 🎣 钓鱼
-        a#random-post-start(href="javascript:fetchRandomPost();", style="transition-duration: 0.3s; transform: rotate(63000deg); opacity: 1;", data-pjax-state="")
+        a.random-post-start(href="javascript:fetchRandomPost();", style="transition-duration: 0.3s; transform: rotate(63000deg); opacity: 1;", data-pjax-state="")
             i.solitude.st-restart-line
     .title-h2-a-right
         if page.type !== 'links'
@@ -11,9 +11,10 @@
 
 script.
     var fdata = {
-        apiurl: "#{theme.moments.api}",
+        apiurl: "#{theme.moments.apiurl}",
         defaultFish: 100,
         hungryFish: 100,
     }
 
 script(src=url_for(theme.moments.randompostjs))
+

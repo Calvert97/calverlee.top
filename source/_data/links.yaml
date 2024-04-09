@@ -12,27 +12,48 @@ links:
         topimg: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 如果是card模式下，将显示
         tag: 博主
         color: vip
-      - name: 王卓Sco # 友链名称
-        link: https://efu.me/ # 友链地址
-        avatar: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 显示头像
-        descr: 宁静致远，热爱生活。 # 友链简介
-        topimg: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 如果是card模式下，将显示
-        tag: 博主
+
+      - name: 安知鱼
+        link: https://blog.anheyu.com/
+        avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+        descr: 生活明朗，万物可爱
+        topimg: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
         color: vip
-      - name: 王卓Sco # 友链名称
-        link: https://efu.me/ # 友链地址
-        avatar: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 显示头像
-        descr: 宁静致远，热爱生活。 # 友链简介
-        topimg: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 如果是card模式下，将显示
-        tag: 博主
+        tag: 技术
+
+      - name: 张洪heo
+        link: https://blog.zhheo.com/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc38f1465.webp
+        descr: 分享设计与科技生活
+        topimg: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc3959f82.webp
         color: vip
-      - name: 王卓Sco # 友链名称
-        link: https://efu.me/ # 友链地址
-        avatar: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 显示头像
-        descr: 宁静致远，热爱生活。 # 友链简介
-        topimg: https://7.isyangs.cn/1/65eb27e69bcff-1.png # 如果是card模式下，将显示
-        tag: 博主
+        tag: 生活
+
+      - name: Akilarの糖果屋
+        link: https://akilar.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc9de6507.webp
+        descr: 期待您的光临！
+        topimg: https://img02.anheyu.com/adminuploads/1/2022/09/02/6311fc39c5966.webp
         color: vip
+        tag: 技术
+
+      - name: 风记星辰
+        link: https://www.thyuu.com
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/07/04/64a3710cd824a.webp
+        descr: 简述热带你来过的每一份温度
+        topimg: https://img02.anheyu.com/adminuploads/1/2023/07/04/64a371403e548.webp
+        color: vip
+        tag: 生活
+
+      - name: Black Files
+        link: https://www.yyyzyyyz.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/07/14/64b0b00b33d75.webp
+        descr: 期待您的光临！
+        topimg: https://img02.anheyu.com/adminuploads/1/2023/07/09/64aa91e87d4c6.webp
+        color: vip
+        tag: 技术
+
+
   - class_name: 技术
     descr: 技术知识为主的博客
     type: item
@@ -42,23 +63,158 @@ links:
         link: https://isyangs.cn # 友链地址
         avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
         descr: 一个前端Bug构造师的博客 # 友链简介
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
-      - name: isYangs # 友链名称
-        link: https://isyangs.cn # 友链地址
-        avatar: https://7.isyangs.cn/8/655c9835780a0-8.jpg # 显示头像
-        descr: 一个前端Bug构造师的博客 # 友链简介
+
+      - name: 杜老师说
+        link: https://dusays.com
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/21/63a2acb9c07d0.png
+        descr: 师者，传道，授业，解惑！
+
+      - name: JayHrn
+        link: https://blog.jayhrn.com
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/06/05/647daed23513c.png
+        descr: 念念不忘，必有回响
+
+      - name: Mycpen
+        link: https://blog.cpen.top
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/03/638b0c930633c.png
+        descr: 这是一个有趣的博客
+
+      - name: Ethan.Tzy
+        link: https://fe32.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/09/17/6325338e1ad8a.jpg
+        descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+
+      - name: mumumu1
+        link: https://mumushu1.github.io/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/09/23/632d1e69da485.jpg
+        descr: 在最高点乘着叶片往前飞
+
+      - name: orangecat
+        link: http://www.orangecatdpman.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/10/18/634df677cca6e.png
+        descr: 路虽远，行则将至
+
+      - name: Echo
+        link: https://www.liveout.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/10/21/6351e69b70281.png
+        descr: 韶华不为少年留，恨悠悠，几时休
+
+      - name: nagisa
+        link: https://caoyusong.site
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/10/21/63526bf987de2.webp
+        descr: 不以物喜，不以己悲
+
+      - name: Fern
+        link: http://www.hi-hufei.com
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/10/28/635b485bc4273.webp
+        descr: 一个正在重塑知识的技术人
+
+      - name: Marcus
+        link: https://blog.marcus233.top
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/08/12/64d783297889f.png
+        descr: 人间值得，未来可期
+
+      - name: 鹿啵包の小窝
+        link: https://pochacco.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/04/23/644529c4558e3.png
+        descr: 落日橘子海，揽尽世间温柔
+
+      - name: 卿以君歌
+        link: https://www.kimtoli.com
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/11/05/6366073950d69.webp
+        descr: 永远年轻，永远热泪盈眶
+
+      - name: 怕冷爱上雪
+        link: https://blog.4t.pw/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/11/19/63785fa4cfc86.webp
+        descr: 千里之行，始于足下。
+
+      - name: HiPeach
+        link: https://opeach.cn
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/11/20/637990a28fa47.png
+        descr: 妙不可言
+
+      - name: Heyiki
+        link: https://www.heyiki.top
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/11/24/637eec3251e1c.webp
+        descr: 梦在旅途，永不止步。
+
+      - name: Rainx
+        link: https://rainxblog.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/03/638b1fe055f45.webp
+        descr: 幸与不幸都有尽头
+
+      - name: Trtyr
+        link: https://trtyr.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/03/638b1f9c7a4fc.webp
+        descr: A New Story Born
+
+      - name: 青衣
+        link: https://www.qingyi1220.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/06/638e929f3e6ac.webp
+        descr: 世界既不黑也不白，而是一道精致的灰
+
+      - name: 绯鞠
+        link: https://blog.anheyu.com/
+        avatar: https://img02.anheyu.com/adminuploads/1/2022/12/27/63aa5660046ca.png
+        descr: 一只爱折腾的绯鞠
+
+      - name: 咬一口激动的鱼
+        link: https://blog.anheyu.com/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/01/28/63d4cbee0c799.webp
+        descr: 生活明朗，万物可爱
+
+      - name: XK
+        link: https://www.xukaiyyds.cn
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/01/28/63d4cbedf3303.png
+        descr: 一个干净整洁的个人博客
+
+      - name: Tan
+        link: https://www.tanybo.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/01/14/63c2250c8b2fe.webp
+        descr: 太阳当空照，花儿对我笑。
+
+      - name: 半方池水半方田
+        link: https://uuanqin.top
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/04/645371241664d.png
+        descr: 技术分享与生活分享
+
+      - name: Celia
+        link: https://7boe.top
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/13/645f7a92a3cbb.png
+        descr: 欲买桂花同载酒，终不似少年游
+
+      - name: 醉浪
+        link: https://blog.zuilang.tk/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/23/646c0cf38646b.webp
+        descr: 一只喜欢七彩球的枯叶蝶
+
+      - name: LoungeXi
+        link: https://loungexi.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/23/646c0d6501f18.webp
+        descr: 且将新火试新茶
+
+      - name: 阿猪
+        link: https://yfzhu.cn/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/07/21/64ba0b9f4859c.png
+        descr: 计算机、股票业余爱好者
+
+      - name: 小植の小破站
+        link: https://blog.xiaoztx.top/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/23/646c0f205b9d4.webp
+        descr: 生生不息，好运不止
+
+      - name: 困困鱼
+        link: https://kunkunyu.com/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/05/23/646c13caca15e.webp
+        descr: 喜欢捣鼓的博主
+
+      - name: Ganzhe
+        link: https://ganzhe.site/
+        avatar: https://img.anheyu.com/images/lnXfm
+        descr: 顺其自然，持之以恒
+
+      - name: Kevinwu
+        link: https://www.kevinwu.cc/
+        avatar: https://img02.anheyu.com/adminuploads/1/2023/06/05/647dafc95b3bd.webp
+        descr: 喜欢，就去追
