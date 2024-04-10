@@ -20,10 +20,8 @@ site:
   # Logo
   name:
     # 显示类型 （i_class/text/img）
-    # Display type (i_class/text/img)
     class: text
     # 具体内容 例如：solitude st-logo / Efu / /img/logo.png
-    # Specific content, for example: solitude st-logo / Efu / /img/logo.png
     custom: Calvert
   # 网页icon
   siteIcon: /img/siteicon/favicon.ico
@@ -34,9 +32,21 @@ site:
 # NavBar
 nav:
   # logo 箱子
+  # group:
+  # 项目: # 分类名称
+  # Calvert: https://calvertlee.top/ || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
   group:
-    # 项目: # 分类名称
-    Calvert: https://calvertlee.top/ || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+    - title: 网页
+      item:
+        - name: 博客
+          link: https://calvertlee.top/
+          icon: /img/siteicon/logo.png
+
+    - title: 项目
+      item:
+        - name: 安知鱼图床
+          link: https://image.anheyu.com/
+          icon: https://image.anheyu.com/favicon.ico
 
   # 中心菜单
   menu:
