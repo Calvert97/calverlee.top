@@ -43,3 +43,13 @@
 	top: 10px;
 	width: 220px;
 }
+
+#about-page .author-content-item.careers .careers-group {
+	z-index: 1;
+}
+
+@media screen and (min-width: 900px) {
+	#nav #site-name:after {
+		font-size: 17px;
+	}
+}

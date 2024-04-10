@@ -24,7 +24,7 @@ site:
     class: text
     # 具体内容 例如：solitude st-logo / Efu / /img/logo.png
     # Specific content, for example: solitude st-logo / Efu / /img/logo.png
-    custom: Solitude
+    custom: Calvert
   # 网页icon
   siteIcon: /img/siteicon/favicon.ico
   # 页脚的Logo、加载动画默认的logo
@@ -34,10 +34,9 @@ site:
 # NavBar
 nav:
   # logo 箱子
-  # logo group
   group:
     # 项目: # 分类名称
-    Solitude: https://github.com/valor-x/hexo-theme-solitude || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
+    Calvert: https://calvertlee.top/ || /img/pwa/favicon.ico # 子菜单名称(submenu name): 链接地址(address) || 图标(icon)
 
   # 中心菜单
   menu:
@@ -314,9 +313,9 @@ post:
     title: 感谢您的赞赏。
     desc: 因为有你们的支持，我才体会到写文章的价值。
     list:
-     - name: 支付宝
-       qcode: https://7.isyangs.cn/34/65f2e5a6d2ef5-34.png
-       color: var(--efu-blue)
+      - name: 支付宝
+        qcode: https://7.isyangs.cn/34/65f2e5a6d2ef5-34.png
+        color: var(--efu-blue)
   # 版权中订阅按钮跳转链接，填写地址后开启
   # Subscription button jump link in copyright
   rss: # /atom.xml
@@ -484,12 +483,12 @@ moments:
   page_turning_number: 5
   # 鱼塘随机文章 / Fish pond random article
   angle: true
-  # appjs: https://cdn.cbd.int/st-source@1.0.3/js/fcircle.min.js
-  # bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
+  appjs: https://npm.elemecdn.com/fcircle-theme-yyyz@1.0.13/dist/fcircle.min.js
+  bundlejs: https://uipv4.zywvvd.com:33030/HexoFiles/js/friend-circle/bundle.js
   # randompostjs: https://cdn.cbd.int/st-source/js/moment/random_post.min.js
 
-  appjs: https://p.calvertlee.top/js/FriendCircle.js
-  bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
+  # appjs: https://p.calvertlee.top/js/FriendCircle.js
+  # bundlejs: https://cdn.cbd.int/st-source/js/moment/bundle.min.js
   # randompostjs: https://p.calvertlee.top/js/random_friends_post.js
   randompostjs: /js/random_friends_post.js
   vue_js: https://p.calvertlee.top/js/FriendCircle.js
