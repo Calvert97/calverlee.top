@@ -663,8 +663,8 @@ katex:
 # 评论
 # comment
 comment:
-  enable: false
-  type: # waline, twikoo
+  enable: true
+  type: twikoo # waline, twikoo
   commentBarrage: false # 热评开关 / Hot comment switch
   lazyload: true # 懒加载
   count: true # 评论数展示
@@ -672,14 +672,14 @@ comment:
   newest_comment:
     enable: false
     storage: 421000 # 缓存时间
+
   # twikoo 配置信息
-  # twikoo settings
   twikoo: # https://twikoo.js.org/
-    envId: # url: https://twikoo.sondy.top/
+    envId: https://twikoo.calvertlee.top/ # url: https://twikoo.sondy.top/
     lang: 'zh-CN' # 语言
     accessToken: # accessToken
+
   # waline 配置信息
-  # waline settings
   waline: # https://waline.js.org/
     envId: # url: https://waline.wzsco.top
     pageview: false # 是否开启页面访问量统计 / Whether to enable page access statistics

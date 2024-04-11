@@ -1,43 +1,44 @@
-/* @media screen and (max-width: 1200px){
-    .swiper_container_card {
-        overflow-x: visible;
-    }
+@media screen and (max-width: 1200px) {
+	.swiper_container_card {
+		overflow-x: visible;
+	}
 }
 
 #catalog-list {
-    overflow-x: visible;
+	overflow-x: visible;
 }
 
 .search-dialog hr {
-    margin: 20px auto;
-    display: none;
+	margin: 20px auto;
+	display: none;
 }
 
 #algolia-search .search-dialog #algolia-hits {
-    overflow-y: visible;
+	overflow-y: visible;
 }
 
 .author-content-item.game-yuanshen::after {
-    -webkit-box-shadow:none;
-    box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .card-content-item .content-bottom .icon-group i {
-    display: inline-block;
-    width: 22px;
-    height: 18px;
-    margin-right: .5rem;
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+	margin-right: 0.5rem;
 }
 
 #aside-content .author-info__description {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC',
+		'Microsoft YaHei', sans-serif;
 }
 
 #rightside {
 	display: none;
-} */
+}
 
-.author-content-item .image {
+/* .author-content-item .image {
 	position: absolute;
 	right: 30px;
 	top: 10px;
@@ -52,4 +53,4 @@
 	#nav #site-name:after {
 		font-size: 17px;
 	}
-}
+} */
