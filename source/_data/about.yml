@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 卿自葳蕤，莫负韶华✨
-  avatarImg: https://p.calvertlee.top/img/hexo/avator.png
+  avatarImg: https://p.calvertlee.top/img/hexo/avator.webp
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -37,7 +37,7 @@
         color: '#357ef5'
       - desc: CE,独立开发者
         color: '#ff1111'
-    img: https://p.calvertlee.top/img/hexo/career.png
+    img: https://p.calvertlee.top/img/hexo/career.webp
   statistic:
     link: /archives
     text: 文章隧道
@@ -45,8 +45,8 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，鄂尔多斯市
-    background: https://p.calvertlee.top/img/hexo/site.jpg
-    backgroundDark: https://p.calvertlee.top/img/hexo/site.jpg
+    background: https://p.calvertlee.top/img/hexo/site.webp
+    backgroundDark: https://p.calvertlee.top/img/hexo/site.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 1997
@@ -72,7 +72,7 @@
     game_tips: 爱好游戏
     game_title: 英雄联盟
     game_uid: '德玛西亚'
-    game_bg: https://p.calvertlee.top/img/hexo/Katarina.jpg
+    game_bg: https://p.calvertlee.top/img/hexo/Katarina.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番

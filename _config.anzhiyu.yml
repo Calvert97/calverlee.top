@@ -7,7 +7,7 @@ menu:
   友链:
     友人帐: /link/ || anzhiyu-icon-link
     朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    留言板: /comments/ || anzhiyu-icon-envelope
+    # 留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
@@ -140,7 +140,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://p.calvertlee.top/img/hexo/avator.png
+  img: https://p.calvertlee.top/img/hexo/avator.webp
   effect: false
 
 # Disable all banner image
@@ -167,7 +167,7 @@ cover:
 # Replace Broken Images (替换无法显示的图片)
 error_img:
   flink: /img/friend_404.gif
-  post_page: https://p.calvertlee.top/img/hexo/404.jpg
+  post_page: https://p.calvertlee.top/img/hexo/404.webp
 
 # A simple 404 page
 error_404:
@@ -217,7 +217,7 @@ index_post_content:
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: true
+anchor: false
 
 # Post
 # --------------------------------------
@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://p.calvertlee.top/img/hexo/wechat.png
+    - img: https://p.calvertlee.top/img/hexo/wechat.webp
       link:
       text: 微信
-    - img: https://p.calvertlee.top/img/hexo/alipay.png
+    - img: https://p.calvertlee.top/img/hexo/alipay.webp
       link:
       text: 支付宝
 
@@ -776,7 +776,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/avatar/avator.png # 自定加载动画义头像
+  avatar: https://p.calvertlee.top/img/hexo/avator.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
