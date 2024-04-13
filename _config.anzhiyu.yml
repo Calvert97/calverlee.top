@@ -459,7 +459,7 @@ footer:
         icon: anzhiyu-icon-rss
     right:
       - title: Github
-        link: https://github.com/anzhiyu-c
+        link: https://github.com/Calvert97
         icon: anzhiyu-icon-github
       - title: Bilibili
         link: https://space.bilibili.com/372204786
@@ -468,7 +468,7 @@ footer:
         link: https://v.douyin.com/DwCpMEy/
         icon: anzhiyu-icon-tiktok
       - title: CC
-        link: /copyright
+        link: /copyright/
         icon: anzhiyu-icon-copyright-line
   list:
     enable: true
