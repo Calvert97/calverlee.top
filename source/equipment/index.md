@@ -1,9 +1,7 @@
 ---
 title: 我的装备
-date: 2023-11-01 13:14:42
+date: 2023-06-10 21:33:24
 type: equipment
-cover: ''
-desc: 实物装备推荐
-leftend: 跟  一起享受科技带来的乐趣
-rightend: ''
+aside: false
+top_img: false
 ---
