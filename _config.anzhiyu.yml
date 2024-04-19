@@ -24,6 +24,8 @@ menu:
 nav:
   enable: true
   travelling: true
+  class: img
+  custom: /img/siteicon/calvert_logo.svg
   clock: false
   menu:
     - title: 网页
