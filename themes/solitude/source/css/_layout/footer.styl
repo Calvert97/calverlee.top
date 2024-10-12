@@ -15,38 +15,37 @@
     content ''
     z-index -1
 
-  div#st-footer-bar
-    display none
 
-    a.footer-bar-link
-      padding 4px 16px
-      background var(--efu-secondbg)
-      border-radius 20px
-      margin-top 8px
-      font-size 14px
-      cursor pointer
-      border var(--style-border-always)
+  if hexo-config('post.footer.enable')
+    div#st-footer-bar
+      display flex
+      flex-direction column
+      align-items center
+      margin-top 16px
 
-      &:hover
-        background var(--efu-main)
-        color var(--efu-white)
-        transform scale(1.1)
-        border-color var(--efu-main)
+      a.footer-bar-link
+        padding 4px 16px
+        background var(--efu-secondbg)
+        border-radius 20px
+        margin-top 8px
+        font-size 14px
+        cursor pointer
+        border var(--style-border-always)
 
-    .footer-logo
-      font-size 24px
+        &:hover
+          background var(--efu-main)
+          color var(--efu-white)
+          transform scale(1.1)
+          border-color var(--efu-main)
 
-    .footer-bar-description
-      color var(--efu-secondtext)
-      font-weight 700
-      padding: 0 0.5rem
-      text-align: center
+      .footer-logo
+        font-size 24px
 
-  .post & div#st-footer-bar
-    display flex
-    flex-direction column
-    align-items center
-    margin-top 16px
+      .footer-bar-description
+        color var(--efu-secondtext)
+        font-weight 700
+        padding: 0 0.5rem
+        text-align: center
 
   #footer_deal
     justify-content center
@@ -59,7 +58,7 @@
       flex-direction row
 
     i
-      font-size .9rem
+      font-size .8rem
       line-height .9rem
       height .9rem
 
@@ -80,20 +79,21 @@
         background var(--efu-main)
         transform scale(1.1)
 
-    .footer_mini_logo
-      width 50px
-      height 50px
-      margin 0 1rem
-      cursor pointer
-      transition cubic-bezier(0, 0, 0, 1.29) .5s
-      user-select none
-      border-radius 50px
-      overflow hidden
-      +maxWidth768()
-        display none
+    if hexo-config('footer.information.author')
+      .footer_mini_logo
+        width 50px
+        height 50px
+        margin 0 1rem
+        cursor pointer
+        transition cubic-bezier(0, 0, 0, 1.29) .5s
+        user-select none
+        border-radius 50px
+        overflow hidden
+        +maxWidth768()
+          display none
 
-      &:hover
-        transform scale(1.2)
+        &:hover
+          transform scale(1.2)
 
   #st-footer
     display flex
@@ -135,7 +135,7 @@
     .footer-title-group
       display flex
       align-items center
-      margin 1rem 0 .7rem 8px
+      margin .5rem 0 .7rem 8px
 
       a
         margin-left 8px
@@ -197,6 +197,9 @@
         padding 0 8px
         margin 0 4px
 
+        .footer-bar-link
+          margin 0
+
     .footer-bar-link
       margin 0 4px
       color var(--efu-fontcolor)
@@ -227,49 +230,3 @@
 
     > div > div.footer-bar-left > span
       margin-right 1rem
-
-  #cookies-window
-    min-width 300px
-    background var(--efu-maskbgdeep)
-    color var(--efu-fontcolor)
-    padding 8px 16px
-    display flex
-    flex-direction column
-    bottom 20px
-    right 20px
-    position fixed
-    border-radius 12px
-    transition .3s
-    z-index 8
-    user-select none
-    backdrop-filter saturate(180%) blur(20px)
-    transform translateZ(0)
-    border var(--style-border)
-    animation barrageIn .6s cubic-bezier(.42, 0, .3, 1.11)
-
-    +maxWidth1300()
-      display none
-
-    &.cw-hide
-      opacity 0
-      animation barrageOut .6s cubic-bezier(.42, 0, .3, 1.11)
-      z-index -1
-
-    .cookies-window-title
-      padding-bottom 4px
-      border-bottom var(--style-border)
-      font-size 12px
-      font-weight 700
-
-    .cookies-window-content
-      font-size 14px
-      display flex
-      justify-content space-around
-      align-items center
-
-      .cookies-link
-        margin-left: 10px
-        font-size: 16px
-
-        i.solitude
-          font-size 16px

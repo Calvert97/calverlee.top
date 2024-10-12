@@ -3,14 +3,15 @@
     &.column
       display flex
       flex-direction column
-      width 49%
+      width calc(50% - (.5rem / 2))
       justify-content space-between
 
       +maxWidth768()
         width 100% !important
 
     &.mapAndInfo
-      width 59%
+      flex 8
+      gap .5rem
 
   .author-content-item
     +minWidth1300()
@@ -22,7 +23,6 @@
       max-height 400px
       position relative
       overflow hidden
-      margin-bottom 0.5rem
       height 60%
       background-size 100%
       transition 1s ease-in-out

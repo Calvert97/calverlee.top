@@ -26,5 +26,9 @@ if hexo-config('search.enable')
 @import "_tags/*"
 
 // comment
-if hexo-config('comment.enable')
+if hexo-config('comment.use')
   @import '_comments/comment.styl'
+
+// third party
+if hexo-config('tianli_talk.enable')
+  @import 'third_party/tianli_talk.styl'

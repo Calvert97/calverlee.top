@@ -1,11 +1,11 @@
 algolia_search:
   name: algoliasearch
   file: dist/algoliasearch-lite.umd.js
-  version: 4.22.0
+  version: 5.4.1
 instantsearch:
   name: instantsearch.js
   file: dist/instantsearch.production.min.js
-  version: 4.63.0
+  version: 4.74.1
 pjax:
   name: pjax
   file: pjax.min.js
@@ -13,28 +13,29 @@ pjax:
 twikoo:
   name: twikoo
   file: dist/twikoo.all.min.js
-  version: 1.6.31
+  version: 1.6.39
 waline_js:
-  name: 'waline'
+  name: '@waline/client'
   file: dist/waline.js
   other_name: waline
-  version: 3.1.3
+  version: 3.3.1
 waline_css:
-  name: 'waline'
+  name: '@waline/client'
   file: dist/waline.css
-  version: 3.1.3
+  version: 3.3.1
+  other_name: waline
 valine:
   name: valine
   file: dist/Valine.min.js
-  version: 1.5.1
-sharejs:
-  name: butterfly-extsrc
-  file: sharejs/dist/js/social-share.min.js
-  version: 1.1.3
-sharejs_css:
-  name: butterfly-extsrc
-  file: sharejs/dist/css/share.min.css
-  version: 1.1.3
+  version: 1.5.2
+artalk_css:
+  name: artalk
+  file: dist/Artalk.css
+  version: 2.9.0
+artalk_js:
+  name: artalk
+  file: dist/Artalk.js
+  version: 2.9.0
 katex:
   name: katex
   file: dist/katex.min.css
@@ -48,7 +49,7 @@ katex_copytex:
 lazyload:
   name: vanilla-lazyload
   file: dist/lazyload.iife.min.js
-  version: 17.8.5
+  version: 19.1.3
 aplayer_css:
   name: aplayer
   file: dist/APlayer.min.css
@@ -67,13 +68,15 @@ pace_js:
   file: pace.min.js
   version: 1.2.4
 swiper_css:
-  name: Swiper
+  name: swiper
   file: swiper-bundle.min.css
   version: 11.0.5
+  other_name: Swiper
 swiper_js:
-  name: Swiper
+  name: swiper
   file: swiper-bundle.min.js
   version: 11.0.5
+  other_name: Swiper
 busuanzi_js:
   name: busuanzi
   file: bsz.pure.mini.js
@@ -82,27 +85,49 @@ snackbar:
   name: node-snackbar
   file: dist/snackbar.min.js
   version: 0.1.16
-solitude_css:
-  name: st-source
-  file: icon/solitude.min.css
-  version: 1.0.5
+fontawesome:
+  name: font-awesome
+  file: css/all.min.css
+  version: 6.6.0
 medium_zoom:
   name: medium-zoom
   file: dist/medium-zoom.min.js
   version: 1.1.0
 fancyapps_ui:
-  name: fancyapps-ui
+  name: '@fancyapps/ui'
   file: dist/fancybox/fancybox.umd.js
-  version: 5.0.33
+  version: 5.0.36
+  other_name: fancyapps-ui
 fancyapps_css:
-  name: fancyapps-ui
-  file: dist/fancybox/fancybox.min.css
-  version: 5.0.33
+  name: '@fancyapps/ui'
+  file: dist/fancybox/fancybox.css
+  version: 5.0.36
+  other_name: fancyapps-ui
 mermaid_js:
   name: mermaid
-  file: dist/mermaid.min.js
-  version: 10.8.0
+  file: dist/mermaid.js
+  version: 10.9.1
+chart_js:
+  name: chart.js
+  file: dist/chart.umd.js
+  version: 4.4.1
+  other_name: Chart.js
+typeit_js:
+  name: typeit
+  file: index.umd.min.js
+  version: 8.8.4
+  other_name: typeit
 blueimp_md5:
   name: blueimp-md5
   file: js/md5.min.js
   version: 2.19.0
+qrcode:
+  name: qrcodejs
+  file: qrcode.min.js
+  version: 1.0.0
+  other_name: qrcodejs
+color_thief:
+  name: colorthief
+  file: color-thief.min.js
+  version: 2.4.0
+  other_name: color-thief

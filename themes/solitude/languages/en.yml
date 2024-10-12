@@ -1,16 +1,19 @@
 more: More
 star: Behold, those who found delight in this piece also perused
-random: Around
+random: Random
 upload: 'datetime: '
 totalk: You don't need to delete blank lines, just type in your comments.
+loading: Loading...
+day: ' days'
+hot-tip: Hot
 
 theme:
-  dark: dark
-  light: light
+  dark: Dark
+  light: Light
 
 copy:
   success: Copied
-  error: Copied failed
+  error: Copy failed
 
 copy_copyright:
   author: Author
@@ -34,11 +37,13 @@ page:
   404: Page not found
 
 home:
-  home: Home
+  home: Recommend
   sticky: Sticky
   new: New
   read: Unread
+  recommend: Recommend
   recommendmore: More
+  archives: All articles
 
 post:
   reprint: Reprint
@@ -55,6 +60,23 @@ post:
     reprint: This article is a reproduction or translation, and the copyright belongs to the original author. Please contact the original author for permission to republish this article.
     original: This piece of writing is an original article, utilizing the
     original_end: Agreement. For complete reproduction, please acknowledge the source as Courtesy of
+  share:
+    qq: Share to QQ
+    weibo: Share to Weibo
+    telegram: Share to Telegram
+    twitter: Share to Twitter
+    linkedin: Share to LinkedIn
+    facebook: Share to Facebook
+    link: Share to Link
+    qrcode: Share to QR code
+    whatsapp: Share to WhatsApp
+  ai:
+    title: Article Summary
+    tip: Complaints
+  nav:
+    next: Next
+    prev: Previous
+
 
 nav:
   site_name_title: Back to home
@@ -66,45 +88,59 @@ nav:
 
 award:
   thanks: Thanks
-  tipping: Tipping
+  tipping: Sponsor
   title: List of appreciation
 
 search:
   empty: No results found
   hit: Found ${query} results for you
-  placeholder: Enter keywords to quickly search
+  placeholder: Enter keywords to search
   count: Total <b>${count}</b> results.
 
 head:
   noscript: Please enable JavaScript to view the site
 
 aside:
-  postcount: 'Posts :'
-  pv: 'PV :'
-  uv: 'UV :'
-  runtime: 'Runtime :'
-  updatetime: 'Last update :'
-  wordcount: 'Word count :'
+  postcount: 'Posts:'
+  pv: 'PV:'
+  uv: 'UV:'
+  runtime: 'Runtime:'
+  updatetime: 'Last update:'
+  wordcount: 'Word count:'
   toc: Table of contents
   tagmore: View all
   avatar: Avatar
+  hello: 'Long time no see, '
+  back: Welcome back again,
   sticker: Mood sticker
   newpost: New posts
+  newcomment: New comments
+  card:
+    posts: 'Posts:'
+    tags: 'Tags:'
+    categories: 'Categories:'
 
 console:
   comment_tip: Interaction
   comment_title: Latest comments
   tag_tip: Tags
   tag_title: Find interesting areas
-  switch_darkmode: Day and night switching
+  switch_darkmode: Day and night mode
   switch_hideAside: Sidebar display control
   switch_keyboard: Keyboard operation
   switch_music: Music switch
   archive_unit: Posts
+  recent_comment_more: Recent comments
+  newest_comment:
+    image: Image
+    link: Link
+    code: Code
+    emoji: Emoji
 
 sidebar:
   function: Function
   darkmode: Display mode
+  siteinfo: Site information
 
 footer:
   description: Article from ${title}
@@ -128,13 +164,14 @@ link:
   banner:
     toComment: Application link
     random: Random Visit
-  random: You are about to ⌈ ${name} ⌋ , security unknown.
+  random: 'Click the button to visit a random link. The safety and availability of the destination website are not guaranteed. The random link for this visit is: ⌈ ${name} ⌋ '
+  to: To
 
 keyboard:
   title: Blog shortcuts
 
 newest_comment:
-  error: Unable to get a comment, please confirm that the relevant configuration is correct.
+  error: Unable to get comments, please check the configuration.
   zero: No comments.
 
 comment:
@@ -159,12 +196,53 @@ right_menu:
   chs_to_cht: 轉為繁體
   cht_to_chs: 转为简体
   img_error: This image cannot be copied or downloaded.
+  ctrl_original_menu: Hold Ctrl + right-click to open the browser's context menu
   barrage:
-    open: OpenBarrage
-    close: CloseBarrage
+    open: Open Barrage
+    close: Close Barrage
   music:
     start: Play
     stop: Pause
     back: Back
     forward: Forward
-    copyMusicName: CopyName
+    copyMusicName: Copy Name
+
+pagination:
+  prev: Prev
+  next: Next
+  to: Go to page
+
+about:
+  other:
+    oneself:
+      map_title: I live in
+      info_title1: Born
+      info_title2: Current occupation
+    tj:
+      tip: Data
+      title: Access statistics
+      post_tip: 'Stats from:'
+  personalities:
+    tip1: At
+    tip2: 'Learn more:'
+
+message:
+  close: Hide message
+  open: Show message
+
+essay:
+  tip0: '- All expanded -'
+  tip1: '- Recent Exhibitions #{count} Short Articles -'
+  link: 'Link'
+
+rightside:
+  show:
+    gear: Settings
+    toc: Toc
+    comment: Comment
+    top: Top
+    barrage: 弹
+  hide:
+    translate: 简繁转换
+    mode: Mode
+    aside: Sidebar

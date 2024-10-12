@@ -18,19 +18,22 @@ block content
                     include includes/page/says
                 when 'equipment'
                     include includes/page/equipment
-                when 'moment'
-                    include includes/page/moment
-                when 'douban'
-                    include includes/widgets/page/banner
-                    != page.content
                 when 'music'
                     include includes/page/music
+                when 'message'
+                    !=partial('includes/page/message', {}, {cache: true})
+                when 'recentcomment'
+                    !=partial('includes/page/recentcomment', {}, {cache: true})
                 when 'banner'
                     include includes/widgets/page/banner
-                    include includes/page/default
+                    if page.container
+                        include includes/page/default
+                    else
+                        != page.content
                 default
                     include includes/page/default
             if page.comment
+                - var comment_js = true
                 include includes/widgets/third-party/comments/comment
         if page.aside
             include includes/widgets/aside/aside

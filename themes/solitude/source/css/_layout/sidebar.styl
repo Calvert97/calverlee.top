@@ -41,13 +41,13 @@
             font-weight 400
 
           .site-page:hover
-            background var(--efu-main)!important
+            background var(--efu-main) !important
             color var(--efu-white)
 
           .site-page span:hover
             color var(--efu-white)
 
-    .site-data
+    / .site-data
       display flex
       width 100%
       justify-content flex-start
@@ -171,17 +171,21 @@
       display flex
       white-space nowrap
       flex-direction row
+      gap .5rem
       flex-wrap wrap
       margin-bottom 60px
 
       a
-        color var(--efu-fontcolor) !important
+        color var(--efu-fontcolor)
         padding 2px 8px 2px 12px
-        margin 4px
         border-radius 8px
         border var(--style-border-always)
         background var(--efu-card-bg)
         font-size 14px !important
+
+        &:hover
+          background var(--efu-main)
+          color var(--efu-white)
 
         sup
           opacity .6
@@ -200,6 +204,12 @@
 
       span.darkmode_switchbutton
         padding 4px 8px
+        cursor pointer
+        transition all .5s ease 0s
+
+        &:hover
+          background var(--efu-main)
+          color var(--efu-white)
 
         [data-theme="dark"] &
           background var(--efu-orange)

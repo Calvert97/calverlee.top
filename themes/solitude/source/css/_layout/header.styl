@@ -10,7 +10,6 @@
     background 0 center
 
     #nav
-      z-index 998
       transition .3s
       background var(--efu-card-bg)
 
@@ -20,17 +19,22 @@
         &:hover
           color var(--efu-card-bg)
 
-          +maxWidth768()
-            align-items flex-end
-            color var(--efu-fontcolor)
+  &:not(.nav-fixed)
+    #nav
+      background var(--efu-none)
+      transition .3s
 
-    &:not(.nav-fixed)
-      #nav
-        background var(--efu-none)
-        transition .3s
+      +maxWidth768()
+        transition 0s
 
-        +maxWidth768()
-          transition 0s
+      .post &
+
+        #nav-right
+          .nav-button
+            .console_switchbutton
+              label
+                i
+                  background var(--efu-white)
 
 #page-header
   #site-title
@@ -93,6 +97,7 @@
       top 7rem
 
   #nav
+    z-index 100
     box-shadow none
     transition 0.3s
     display flex
@@ -100,7 +105,6 @@
     user-select none
 
     +maxWidth768()
-      background linear-gradient(to top, var(--efu-main-none) 0, var(--efu-main) 100%)
       transition 0s
 
     +maxWidth1400()
@@ -144,10 +148,13 @@
         margin-right 12px
 
       div
-        margin-left .5rem
         padding 0
+        margin-left .5rem
 
       .nav-button
+        margin-left .5rem
+        cursor pointer
+
         a
           height 35px
           width 35px
@@ -155,6 +162,9 @@
           align-items center
           justify-content center
           border-radius 40px
+
+          i
+            font-size 20px
 
           &.totopbtn
             width 25px
@@ -168,7 +178,53 @@
             transition .3s
 
           &.console_switchbutton
-            padding 4px 8px
+            padding 10px 7.5px
+
+            &:hover
+              label
+                i
+                  background var(--efu-card-bg)
+
+                .left
+                  width .5rem
+                  height .3rem
+
+                .center
+                  width .5rem
+                  height .3rem
+
+                .right
+                  width .3rem
+                  height 100%
+
+            label
+              display flex
+              position relative
+              width 100%
+              height 100%
+              cursor pointer
+
+              i
+                transition all .3s
+                position absolute
+                border-radius 12px
+                background var(--efu-fontcolor)
+
+                &.left
+                  top 0
+                  width 100%
+                  height .3rem
+
+                &.center
+                  bottom 0
+                  width .3rem
+                  height .3rem
+
+                &.right
+                  right 0
+                  bottom 0
+                  width .5rem
+                  height .3rem
 
         &.long
           a
@@ -192,7 +248,6 @@
     #nav
       position fixed
       top 0
-      z-index 103
       transition .3s
       box-shadow none
       background var(--efu-card-bg)
@@ -277,7 +332,7 @@
       transform scale(0)
       margin-left 0
       overflow hidden
-      transition .3s ease-in
+      transition .3s
 
 #page-header #scroll-down .scroll-down-effects,
 #page-header #site-subtitle, #page-header #site-title
@@ -292,7 +347,7 @@
   padding 0
   position absolute
   top 0
-  z-index 90
+  z-index 10
   display flex
   flex-wrap wrap
   -webkit-box-align center
@@ -312,7 +367,6 @@
     top 0
     transition .2s
     position fixed
-    z-index 91
     opacity 1
     filter none
 
@@ -339,27 +393,29 @@
     cursor pointer
 
     &:hover
-      i, span, img
-        +minWidth900()
+      @media (hover: hover)
+        i, span, img
+          color var(--efu-card-bg)
+          transition .3s
+
+      +minWidth900()
+        i, span, img
           opacity 0
 
-      &:after
+      i.fa-solid.fa-home
         +minWidth900()
           opacity: 1
 
-    &:after
-      +minWidth900()
-        opacity 0
-        position absolute
-        display flex
-        z-index 1
-        content "\e008"
-        font-family solitude, serif
-        align-items center
-        justify-content center
-        font-size 22px
-        line-height 1
-        color var(--efu-card-bg)
+    i.fa-solid.fa-home
+      opacity 0
+      position absolute
+      display flex
+      z-index 1
+      align-items center
+      justify-content center
+      font-size 22px
+      line-height 1
+      color var(--efu-card-bg)
 
     if hexo-config('site.name.class') == i_class
       i
@@ -488,7 +544,7 @@
 
             i
               &:not(.fa-brands)
-                font-size 22px
+                font-size 16px
                 margin-right 8px
                 line-height 1
 
@@ -520,33 +576,6 @@
         &.expand
           padding 4px
           transition transform .3s ease 0s
-
-  &.hide-menu
-    #toggle-menu
-      display inline-block
-
-      +minWidth768()
-        display none
-
-      .site-page
-        font-size inherit
-
-        +maxWidth768()
-          width 35px
-          height 35px
-          display flex
-          align-items center
-          justify-content center
-
-    .menus_items
-      position absolute
-      left 0
-      visibility hidden
-      opacity 0
-
-    #search-button
-      span
-        display none
 
   #search-button
     display inline
@@ -593,15 +622,6 @@
     &-mask
       +maxWidth899()
         display none !important
-
-.nav-button
-  cursor pointer
-
-#site-name
-  .iconfont
-    font-size 20px
-    font-weight 400
-    line-height 48px
 
 #site-logo
   width 121px
@@ -722,6 +742,7 @@ if hexo-config('nav.group')
       opacity 0
       pointer-events none
       backdrop-filter blur(20px)
+      -webkit-backdrop-filter blur(20px)
 
       +maxWidth768()
         left 0
@@ -767,14 +788,15 @@ if hexo-config('nav.group')
             background-color var(--efu-main)
 
 .post
-  if hexo-config('nav.group')
-    .back-home-button
-      color var(--efu-white)
-
-      &:hover
-        background var(--efu-white-op)
+  .post-bg
+    if hexo-config('nav.group')
+      .back-home-button
         color var(--efu-white)
-        cursor pointer
+
+        &:hover
+          background var(--efu-white-op)
+          color var(--efu-white)
+          cursor pointer
 
   #nav
     #site-name
@@ -782,61 +804,70 @@ if hexo-config('nav.group')
         +minWidth900()
           align-items center
 
-      &:after
+      i.fa-solid.fa-home
         color var(--efu-white)
 
   .nav-fixed
     #nav
       #site-name
-        &:after
+        i.fa-solid.fa-home
           color var(--efu-card-bg)
 
-.back-menu-list-groups
-  .back-menu-list
-    display flex
-    flex-direction row
-    flex-wrap wrap
-    width 340px
-    justify-content space-between
+  .not-top-img
+    #nav
+      a
+        &:hover
+          +minWidth900()
+            background var(--efu-lighttext)
 
-    &::before
-      position absolute
-      top -15px
-      left 0
-      width 100%
-      height 20px
-      content ''
+.back-menu-list
+  display flex
+  flex-direction row
+  flex-wrap wrap
+  width 340px
+  justify-content space-between
 
-    .back-menu-item
-      display flex
-      align-items center
-      margin 4px 8px
-      padding 4px 8px
+  &::before
+    position absolute
+    top -15px
+    left 0
+    width 100%
+    height 20px
+    content ''
 
-      #nav &
-        padding 4px 8px
+.back-menu-item
+  display flex
+  align-items center
+  margin 4px 8px
+  padding 4px 8px
 
-      &:hover
-        background var(--efu-lighttext)
-        transform scale(1)
+  #nav &
+    padding 4px 8px
 
-        .back-menu-item-text
-          color var(--efu-card-bg)
+  #nav &
+    &:hover
+      background var(--efu-lighttext)
 
-      .back-menu-item-icon
-        width 24px
-        height 24px
-        border-radius 8px
-        background var(--efu-none)
+  &:hover
+    background var(--efu-lighttext)
 
-      .back-menu-item-text
-        font-size 16px
-        transition .3s
-        margin-left .5rem
-        color var(--efu-fontcolor)
+    .back-menu-item-text
+      color var(--efu-card-bg)
 
-        +maxWidth768()
-          font-size 14px
+  .back-menu-item-icon
+    width 24px
+    height 24px
+    border-radius 8px
+    background var(--efu-none)
+
+  .back-menu-item-text
+    font-size 16px
+    transition .3s
+    margin-left .5rem
+    color var(--efu-fontcolor)
+
+    +maxWidth768()
+      font-size 14px
 
 .page
   #nav
@@ -846,6 +877,7 @@ if hexo-config('nav.group')
         background var(--efu-main)
         transition .3s
         box-shadow var(--efu-shadow-main)
+
     #site-name
       &:hover
         i
@@ -886,8 +918,8 @@ if hexo-config('nav.group')
           height 35px
           line-height 35px
           border-radius 40px
-          if hexo-config('language') == 'en'
-            letter-spacing 0
+          if $language == 'en-US'
+            letter-spacing normal
 
 #travellings_button
   display inline
@@ -920,7 +952,7 @@ if hexo-config('nav.group')
     overflow hidden
     left 0
 
-if hexo-config('nav.right.console')
+if hexo-config('console.enable')
   #nav-console
     +maxWidth768()
       display none

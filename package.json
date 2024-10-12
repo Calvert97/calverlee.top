@@ -40,7 +40,6 @@
   },
   "description": "hexo博客",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Calvert97/calverlee.top.git"

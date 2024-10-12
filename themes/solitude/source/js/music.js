@@ -1,12 +1,9 @@
-/**
- * Music Player
- * author: @efu
- * date: 2024-03-19
- * update: 2024-03-19
- */
-
-class ScoMusicPlayer {
+class MusicPlayer {
+    constructor() {
+        this.init();
+    }
     init() {
+        document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`);
         this.getCustomPlayList();
         this.addEventListenerToDocument();
         this.addButtonListEventListener();
@@ -44,6 +41,7 @@ class ScoMusicPlayer {
         img.onload = () => {
             element.style.backgroundImage = musicCover.style.backgroundImage;
         };
+        element.className = 'show'
     }
 
     setLoadingScreen(loadingElement, backgroundElement) {
@@ -52,7 +50,7 @@ class ScoMusicPlayer {
             if (musicCover) {
                 loadingElement.style.display = "none";
                 clearInterval(timer);
-                document.querySelector('meting-js').aplayer.volume(0.8, true);
+                document.querySelector('meting-js');
                 this.addEventListenerChangeMusicBg();
                 backgroundElement.style.display = "block";
             }
@@ -106,6 +104,13 @@ class ScoMusicPlayer {
                 break;
         }
     }
+    destroy() {
+        document.removeEventListener("keydown", this.handleKeydown);
+    }
 }
 
-const scoMusic = new ScoMusicPlayer();
+function initializeMusicPlayer() {
+    let exitingMusic = window.scoMusic;
+    if (exitingMusic) exitingMusic.destroy();
+    window.scoMusic = new MusicPlayer();
+}

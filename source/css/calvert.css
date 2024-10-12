@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 	.swiper_container_card {
 		overflow-x: visible;
 	}
@@ -6,7 +6,7 @@
 
 #catalog-list {
 	overflow-x: visible;
-}
+} */
 
 .search-dialog hr {
 	margin: 20px auto;

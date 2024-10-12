@@ -1,7 +1,7 @@
 {
   "name": "hexo-theme-solitude",
-  "version": "1.7.11",
-  "description": "A beautiful, powerful, and efficient Hexo theme developed by the efu.",
+  "version": "2.1.4",
+  "description": "A beautiful, powerful, and efficient Hexo theme developed by everfu.",
   "main": "package.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,22 +11,23 @@
     "theme",
     "solitude",
     "Card UI Design",
-    "Efu",
+    "everfu",
+    "伍十七",
     "hexo-theme-solitude"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/valor-x/hexo-theme-solitude.git"
+    "url": "https://github.com/everfu/hexo-theme-solitude"
   },
   "dependencies": {
-    "hexo-renderer-stylus": "^3.0.0",
-    "hexo-renderer-pug": "^3.0.0"
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/valor-x/hexo-theme-solitude/issues",
-    "email": "o@efu.me"
+    "url": "https://github.com/everfu/hexo-theme-solitude/issues",
+    "email": "o@everfu.cn"
   },
-  "homepage": "https://efu.me/",
-  "author": "Hexo-Theme-Solitude<o@efu.me>",
+  "homepage": "https://solitude.js.org",
+  "author": "Hexo-Theme-Solitude<o@everfu.cn>",
   "license": "MIT"
 }

@@ -1,9 +1,12 @@
 .comment-barrage
   position fixed
   bottom 0
-  right 20px
+  if hexo-config('rightside.enable')
+    right 2.5rem
+  else
+    right 20px
   padding 0 0 20px 10px
-  display flex
+  display none
   flex-direction column
   justify-content flex-end
   z-index 999
@@ -117,23 +120,14 @@
         max-width 270px
 
         img:not(.tk-owo-emotion)
-        display none
+          display none
         img.tk-owo-emotion
           width 16px
           padding 0
           margin 0
           transform translateY(2px)
 
-      pre
-        display none
-
-      li
-        display none
-
-      blockquote
-        display none
-
-      br
+      pre, li, blockquote, br
         display none
 
       &::-webkit-scrollbar

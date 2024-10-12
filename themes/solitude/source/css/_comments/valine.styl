@@ -1,4 +1,4 @@
-#comment
+#vcomment
   .vcount
     display none !important
 
@@ -15,7 +15,7 @@
     flex-direction column
     position relative
 
-    .vemojis
+  .vemojis
       display: none;
       position: absolute;
       left: 0;
@@ -36,6 +36,9 @@
       overflow-y: auto;
       padding: 10px;
 
+      +maxWidth768()
+        max-width 300px
+
   .vwrap
     flex 1
     display flex
@@ -43,6 +46,7 @@
     padding 0
     overflow: inherit;
     flex-direction column-reverse
+    margin-bottom 0
 
     .vheader
       display flex
@@ -194,6 +198,7 @@
       flex 1
       padding 0
       border 0
+      overflow visible
 
       .vhead
         display flex
