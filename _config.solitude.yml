@@ -31,37 +31,36 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-  #  project: # name
-  #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
-
+    我的:
+      个人主页: https://everfu.cn || https://ui.everfu.cn/c625e37b3cf9054d92a52ec04ce8abf0.png/avatar
+    # 项目:
+    #   Solitude: https://github.com/everfu/hexo-theme-solitude || https://ui.everfu.cn/cover/202408301243345.webp/avatar
   # Menu
   # 菜单
   menu:
-    Home: / # name: link
-    Article: # name
-      Archives: /archives/ || fas fa-folder-closed # item name: link || icon
-      Categories: /categories/ || fas fa-clone
-      Tags: /tags/ || fas fa-tags
-    Friends:
-      Moments: /moments/ || fas fa-wifi
-      Links: /links/ || fas fa-user-group
-      Treasure: javascript:travelling() || fas fa-gift
-    Myself:
-      Equipment: /equipment/ || fas fa-laptop
-      Toobox: /tlink/ || fas fa-toolbox
-      Music: /music/ || fas fa-music
-    About: /about/
-
+    # 首页: / # name: link
+    文库: # name
+      全部文章: /archives/ || fas fa-folder-closed # item name: link || icon
+      分类列表: /categories/ || fas fa-clone
+      标签列表: /tags/ || fas fa-tags
+    友链:
+      文章矩阵: https://summary.zhheo.com/static/matrix-posts.html || fas fa-wifi
+      友情链接: /links/ || fas fa-user-group
+      宝藏博主: javascript:travelling() || fas fa-gift
+    我的:
+      我的装备: /equipment/ || fas fa-tools
+      # 在线工具: /tlink/ || fas fa-toolbox
+      关于本站: /about/ || fas fa-user
   # Right button
   # 右侧按钮
   right:
     random: true # Random article / 随机文章按钮
     custom:
-    #  - name: Start # name
-    #    url: https://www.travellings.cn/go.html # Jump link
-    #    icon: fas fa-train # Icon
-    #    onclick: # Click event
-    #    id: travellings_button # id
+      # - name: 开往 # name
+      #   url: https://www.travellings.cn/go.html # Jump link
+      #   icon: fas fa-train # Icon
+      #   onclick: # Click event
+      #   id: travellings_button # id
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -70,7 +69,7 @@ nav:
 hometop:
   enable: true
   banner:
-    title: Tranquility <br>and love life / 宁静致远 <br> 热爱生活 # Title
+    title: 宁静致远 <br> 热爱生活 # Title
     url: Hexo Theme Solitude
     icon:
       HTML: # name
@@ -112,7 +111,7 @@ aside:
   # Values: about (info card), newestPost (latest article), allInfo (website information), flip (official account QR code), newest_comment (latest comment)
   # 值: about(信息卡), newestPost(最新文章), allInfo(网站信息), flip(官方账号二维码), newest_comment(最新评论)
 
-  # Sticky: Fixed position / noSticky: Not fixed position
+  # Sticky: Fixed position 
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
     noSticky: 'about'
@@ -151,14 +150,14 @@ aside:
     # Style 2 is invalid, Triggered when sayhello is clicked.
     # Style 2 无效, 点击 sayhello 时触发
     sayhello2:
-      # - You'll make it.
-      # - You're gonna make it.
-      # - Good luck, stranger.
+      - You'll make it.
+      - You're gonna make it.
+      - Good luck, stranger.
     # social
     # 社交信息图标
     information:
-    #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+     Github: https://github.com/everfu || fab fa-github # Name: link || icon
+     Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -184,7 +183,7 @@ aside:
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
@@ -195,7 +194,7 @@ aside:
   # Archive
   # 归档
   archive:
-    enable: false
+    enable: true
     type: 'month' # month: by month / year: by year
   # --------------------------- end ---------------------------
 
@@ -285,7 +284,7 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
     updated: false
@@ -294,9 +293,9 @@ post:
     locate: false
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
     pv: false
     # Comment count
@@ -337,7 +336,7 @@ post:
   # Article reading progress
   # 文章封面取色
   covercolor:
-    enable: false
+    enable: true
     # local: local color / api: api color / ave: oss average color
     mode: local
     # api address / api 地址
@@ -369,7 +368,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -441,16 +440,16 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Whether to display the browser's context menu when hold Ctrl key.
   # 是否在按住 Ctrl 键时显示浏览器右键菜单
   ctrlOriginalMenu: false
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
-  translate: false
+  translate: true
   # Custom list
   # 自定义列表
   custom_list:
@@ -507,14 +506,14 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
-    enable: false
+    enable: true
     # Cache time 1: 1 day / .5 : half a day
     # 缓存时间 1: 1天 / .5 : 半天
-    storage: .2
+    storage: 1
   card:
     # Tags
     # 标签
@@ -606,7 +605,7 @@ meting_api: 'https://meting.everfu.cn/?server=:server&type=:type&id=:id&auth=:au
 # Capsule music
 # 音乐胶囊
 capsule:
-  enable: false
+  enable: true
   # 歌单 ID / 单曲 ID
   id: 8407304077
   # 服务商：netease / qq / xiami / kugou / baidu
@@ -642,7 +641,7 @@ keyboard:
 # Lazyload
 # 图片懒加载
 lazyload:
-  enable: false
+  enable: true
   # post, site
   field: site
   # 加载时替换图
